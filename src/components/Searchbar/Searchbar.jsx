@@ -8,7 +8,7 @@ const Searchbar = ({ onSubmit }) => {
   const handleSubmit = e => {
     e.preventDefault();
 
-    // Check for an incorrect word (e.g., "error" in this example)
+    
     if (searchValue.toLowerCase() === 'error') {
       setError('Please enter a valid search term.');
     } else {
